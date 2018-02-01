@@ -1,0 +1,489 @@
+
+
+body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+        background-color: rgb(145, 82, 53);
+        margin: auto;
+
+    }
+
+    /* .all container {
+        width: 100%;
+        position: relative;
+        margin: auto;
+
+    } */
+
+    .navbar {
+        /* position: absolute; */
+        /* height: 13vh;
+        background-color: rgb(54, 158, 76);
+        position: fixed;
+        z-index: 100;
+        margin-top: -105px; */
+    }
+
+    .navber-brands {
+        /* position: relative; */
+        width: 100%;
+        height: 13vh;
+        /* background-color: rgb(54, 158, 76); */
+    }
+
+    .images-auto {
+        width: 80px;
+        height: auto;
+        border-radius: 8px;
+    }
+
+    .nav-link {
+        margin-left: 50px;
+        font-size: 20px;
+        padding-right: 20px;
+    }
+
+    .nav-link:hover {
+        /* background-color: rgb(109, 73, 7); */
+        border-radius: 8px;
+    }
+
+    .swiper-container {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+
+    .swiper-slide {
+        position: relative;
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        /* -webkit-align-items: center;
+        align-items: center; */
+    }
+
+    .pic {
+        width: 100%;
+        height: 85vh;
+        background-size: cover;
+        margin-top: 100px;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        background-image: none;
+    }
+
+    .swiper-button-next {
+        right: 30px;
+    }
+
+    .swiper-button-prev {
+        left: 30px;
+    }
+
+    .swiper-pagination {
+        bottom: 10px;
+    }
+
+    .swiper-pagination-bullet-active {
+        background-color: #fff;
+    }
+
+    .Dividebox {
+        width: 100%;
+        height: 20vh;
+        /* background-color: rgb(104, 168, 98); */
+        margin-top: -100px;
+    }
+
+    .Dividebox h1 {
+        /* width: 1130px; */
+        height: 10px;
+        padding-top: 55px;
+        margin-top: 100px;
+        margin-left: 80px;
+    }
+
+    .beans {
+        width: 70px;
+        height: 40px;
+        /* background-color: #fff; */
+        float: left;
+        /* margin-top: px; */
+        margin-left: 300px;
+        background-image: url(/img/豆豆.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .beans1 {
+        width: 70px;
+        height: 40px;
+        /* background-color: #fff; */
+        float: left;
+        margin-left: 340px;
+        background-image: url(/img/豆豆.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .boxline {
+        /* width: 1130px; */
+        height: 5px;
+        background-color: rgb(79, 145, 53);
+        margin-top: 50px;
+    }
+
+    .case-box {
+        padding: 0;
+    }
+
+    /* .case {
+        width: 100%;
+        height: 70vh;
+        background-color: rgb(151, 97, 97);
+        margin: 0;
+    } */
+
+    .bin {
+        /* width: 31%; */
+        height: 70vh;
+        border-radius: 15px;
+    }
+
+    .bin1 {
+        /* float: left; */
+        /* margin-right: 23px; */
+        background-image: url(/img/bin1.jpg);
+        background-size: cover;
+        opacity: 0.5;
+        width: 50px;
+
+    }
+
+
+    .bin1 h1 {
+        text-align: center;
+        color: #eee;
+        margin-top: 50%;
+    }
+
+    .bin-bin-bin {
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 15px;
+        border: solid 3px black;
+    }
+
+    .bin2 {
+        /* float: left; */
+        /* margin-right: 22px; */
+        /* background-color: rgb(126, 112, 112); */
+        background-image: url(/img/bin2.jpg);
+        background-size: cover;
+
+    }
+
+    .bin3 {
+        /* float: left; */
+        /* background-color: rgb(105, 76, 76); */
+        background-image: url(/img/bin3.jpg);
+        background-size: cover;
+
+    }
+    .bin11{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .bintop {
+        width: 100%;
+        height: 10vh;
+        background-color: #fff;
+        border-radius: 15px;
+    }
+
+    .bintop h2 {
+        text-align: center;
+        padding: 25px 100px;
+        font-size: 20px;
+    }
+
+    .menubox {
+        /* position: relative; */
+        width: 100%;
+        height: 90vh;
+        /* background-color: #fff;   */
+        /* bgc最後要去掉 */
+        /* background-image: url(/img/菜單最終OKv1.jpg); */
+        background-repeat: no-repeat;
+        text-align: center;
+    }
+
+    .aboutbox {
+        width: 100%;
+        height: 90vh;
+        /* background-color: rgb(151, 97, 97); */
+    }
+
+    .abouttop {
+        /* width: 100%; */
+        height: 50%;
+        /* background-color: rgb(29, 119, 134); */
+    }
+
+    /*以下是 別人打的  */
+
+    .bg-darkpink {
+        /* background-color: rgb(151, 97, 97); */
+    }
+    .about1{
+        padding-left: 150px;
+    }
+
+ 
+    .about2 {
+        padding: 20px;
+    }
+
+    .about1 .pic,
+    .about2 .pic {
+        margin: 0;
+        /* padding: 10px; */
+        width: 400px;
+        height: 300px;
+        border-radius: 8px;
+        background-size: cover;
+        margin-bottom: 30px;
+    }
+
+    /* 以上也是別人打的 */
+
+    .aboutL {
+        width: 400px;
+        height: 300px;
+        float: left;
+        border-radius: 15px;
+        /* background-color: rgb(117, 114, 114); */
+        background-image: url(/img/about1.jpg);
+    }
+
+    .aboutR {
+        width: 565px;
+        height: 100%;
+
+        /* background-color: #fff; */
+    }
+
+    .aboutbox .aboutR h4 {
+        line-height: 35px;
+        font-size: 1.7rem
+    }
+
+    .aboutbox .aboutR h1 {
+        margin-left: 15px;
+    }
+
+    .aboutbottom {
+        width: 100%;
+        height: 50%;
+        /* background-color: rgb(3, 37, 43); */
+    }
+
+    .aboutl {
+        width: 100%;
+
+        /* background-color: rgb(247, 242, 242); */
+    }
+
+    .aboutr {
+        height: 20vh;
+        border-radius: 15px;
+        /* background-color: rgb(117, 114, 114); */
+        /* margin-right: 150px;
+        margin-top: -300px; */
+        /* background-color: rgb(117, 114, 114); */
+        background-image: url(/img/about2.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .aboutbox .aboutl h4 {
+        /* margin-left: 160px; */
+        line-height: 30px;
+
+    }
+
+    .aboutbox .aboutl h1 {
+        /* margin-left: 280px; */
+
+    }
+
+    .bottom {
+        width: 100%;
+        background-color: rgb(114, 207, 168);
+
+    }
+
+    .bottomt {
+        width: 100%;
+        height:380px;
+        background-color: rgb(49, 224, 101);
+        background-image: url(/img/bottomt.jpg);
+    }
+
+    .mapbox {
+        width: 300px;
+        height: 300px;
+        border-radius: 15px;
+        background-color: rgb(204, 25, 25);
+        float: left;
+        margin-top: 35px;
+        margin-left: 45px;
+    }
+    .iconcon{
+        position: absolute;
+        left: 430px;
+        width: 55px;
+        height: 55px;
+        top: 12px;
+        border-radius: 15px;
+        background-repeat: no-repeat;
+        /* background-color: #fff; */
+}
+    .icon {
+        position: absolute;
+        left: 430px;
+        width: 55px;
+        height: 55px;
+        top: 12px;
+        border-radius: 15px;
+        background-repeat: no-repeat;
+        /* background-color: #fff; */
+    }
+
+    .fb {
+        position: absolute;
+        left: 60px;
+        /* background-color: rgb(248, 248, 248); */
+        background-image: url(/img/fbook.png);
+        background-size: contain;
+    }
+
+    .ig {
+        position: absolute;
+        left: 120px;
+        /* background-color: rgb(233, 209, 77);  */
+        background-image: url(/img/igOK.png);
+        background-size: contain;
+    }
+
+    .lin {
+        position: absolute;
+        left: 180px;
+        /* background-color: rgb(233, 209, 77);  */
+        background-image: url(/img/lineOK.png);
+        background-size: contain;
+    }
+
+    .footerline h3 {
+        position: absolute;
+        color: rgb(17, 17, 17);
+        right: 250px;
+        bottom: 20px;
+    }
+
+    .footerline h4 {
+        position: absolute;
+        color: #eee;
+        left: 400px;
+        top: 15px;
+    }
+
+    .footer {
+        position: relative;
+        width: 100%;
+        height: 150px;
+        background-color: rgb(54, 158, 76);
+    }
+
+    .footerline {
+        position: absolute;
+        width: 100%;
+        height: 5px;
+        background-color: #C3937D;
+        top: 100px;
+    }
+
+    .top {
+        position: absolute;
+        bottom: 10.5%;
+        right: 20%;
+        position: fixed;
+        /* z-index: 100; */
+        /* 讓標誌在頂端被slide蓋住，所以不用 */
+    }
+
+    .navbar-toggler {
+        background-color: #fff;
+    }
+    .abouttextl{
+        padding-left: 150px;
+    }
+    
+    @media screen and (max-width:768px) {
+     .abouttextr,.abouttextl,.about1,.about2{
+         padding: 0;
+         padding-left: 75px;   
+        }
+        .footer{
+            height: 200px;
+        }
+        .iconcon{
+            left: 120px;
+        }  
+        .footerline h3{
+            right:42%;
+            font-size: 15px;
+            font-weight:900;
+        } 
+        .footerline h4{
+            left: 65px;
+        }
+        .footerline{
+            top:150px;
+        }
+        .top{
+            display: none;
+        }
+        .menubox{
+            height: 350px;
+        }
+
+        *{ 
+            margin:auto;    
+        }
+    }
+
+
+    .container .row .col-md-4.bin.bin1 {
+        padding: 0;
+    }
